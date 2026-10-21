@@ -49,4 +49,13 @@ likes: 152
 
 ### Setup
 
-- make git repo
+- make git repo DONE
+
+### Structure
+
+- create the structure hardcoded in html DONE
+- logo already there put it in a header add a profile picture DONE
+- in main put the first post as a section DONE
+- profile picture, profile name and location, selfie picture, icons , likes , comments DONE
+
+### Styling
