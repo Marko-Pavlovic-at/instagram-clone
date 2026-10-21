@@ -53,7 +53,7 @@ function renderPosts() {
           />
 
           <div class="btn-container">
-            <button>
+            <button class ="like-btn">
               <img
                 class="icon-img"
                 src="images/icon-heart.png"
