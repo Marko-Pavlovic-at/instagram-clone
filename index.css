@@ -95,3 +95,7 @@ button:hover {
 .bold-para {
   font-weight: bold;
 }
+
+#posts {
+  margin-bottom: 15px;
+}

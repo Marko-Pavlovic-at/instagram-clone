@@ -8,7 +8,7 @@ Note : this project comes with files for the pictures and icons
 
 ## Stretch Goals
 
-- use js to render all posts
+- use js to render all posts DONE
 - increase like of the post when he clicks on the heart icon
 
 Design file https://www.figma.com/design/rLnCOsRn9RtdgJD4BSZqf4/Oldagram--Copy-?node-id=0-1&p=f&t=Ql2jbKc3VcBjoRYc-0
@@ -64,8 +64,8 @@ likes: 152
 
 ### logic
 
-- create a section give it an id and grab it in js
-- create a function render
-- inside the function use an for loop to loop trough the array length
-- at each iteration write the innerhtml
-- use the current html as a template
+- create a section give it an id and grab it in js DONE
+- create a function render DONE
+- inside the function use an forEach loop to loop trough the array length DONE
+- at each iteration write the innerhtml DONE
+- use the current html as a template DONE
