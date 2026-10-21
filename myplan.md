@@ -2,9 +2,9 @@ Note : this project comes with files for the pictures and icons
 
 ## Requirements
 
-- create first post
-- use semantic html
-- add hover effects to the icons (tone down)
+- create first post DONE
+- use semantic html DONE
+- add hover effects to the icons (tone down) DONE
 
 ## Stretch Goals
 
@@ -59,3 +59,13 @@ likes: 152
 - profile picture, profile name and location, selfie picture, icons , likes , comments DONE
 
 ### Styling
+
+- copy the design from the design file
+
+### logic
+
+- create a section give it an id and grab it in js
+- create a function render
+- inside the function use an for loop to loop trough the array length
+- at each iteration write the innerhtml
+- use the current html as a template

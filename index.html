@@ -7,25 +7,68 @@
   </head>
   <body>
     <header>
-      <img src="images/logo.png" />
-      <img src="./images/user-avatar.png" />
+      <img
+        src="images/logo.png"
+        alt="the logo in a curvy text spelling oldgram"
+        class="logo-img"
+      />
+      <img
+        class="user-avatar"
+        src="./images/user-avatar.png"
+      />
     </header>
 
     <main>
       <section id="post1">
-        <img
-          src="images/avatar-vangogh.jpg"
-          alt=""
-        />
-        <p>Vincent van Gogh</p>
-        <p>Zudert, Netherlands</p>
-        <img src="images/post-vangogh.jpg" />
-        <button>Heart</button>
-        <button>comment</button>
-        <button>share</button>
-        <p>21,492 likes</p>
-        <p>vincey1853 just took a few mushrooms lol</p>
+        <div class="post-header">
+          <img
+            src="images/avatar-vangogh.jpg"
+            alt="vincent van gough profile pic "
+            class="profile-img"
+          />
+          <div class="post-header-text">
+            <p>Vincent van Gogh</p>
+            <p>Zudert, Netherlands</p>
+          </div>
+        </div>
+        <div class="post-body">
+          <img
+            class="post-img"
+            src="images/post-vangogh.jpg"
+          />
+
+          <div class="btn-container">
+            <button>
+              <img
+                class="icon-img"
+                src="images/icon-heart.png"
+              />
+            </button>
+            <button>
+              <img
+                src="images/icon-comment.png"
+                alt=""
+                class="icon-img"
+              />
+            </button>
+            <button>
+              <img
+                src="images/icon-dm.png"
+                alt=""
+                class="icon-img"
+              />
+            </button>
+          </div>
+
+          <p><span class="bold-para"> 21,492 likes</span></p>
+          <p>
+            <span class="bold-para">vincey1853</span> just took a few mushrooms
+            lol
+          </p>
+        </div>
       </section>
+
+      <section id="posts"></section>
     </main>
 
     <script src="index.js"></script>

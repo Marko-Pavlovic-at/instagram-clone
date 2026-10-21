@@ -1,5 +1,97 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 500px;
 }
 
+header {
+  display: flex;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 20px;
+  justify-content: space-between;
+  height: 67px;
+  width: 375;
+  align-items: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.logo-img {
+  height: 33px;
+  width: 127px;
+}
+
+.post1 {
+  width: 375px;
+  height: 545px;
+  display: flex;
+}
+
+.profile-img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+}
+
+.post-header {
+  width: 348px;
+  height: 34px;
+  display: flex;
+  padding: 20px;
+}
+
+.post-header-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.post-header-text p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.post-img {
+  height: 375px;
+  width: 375px;
+}
+
+.btn-container {
+  display: flex;
+  height: 22px;
+  width: 104px;
+}
+
+.post-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-body p {
+  margin: 0;
+}
+
+.icon-img {
+  height: 22px;
+  width: 23px;
+}
+
+button {
+  border: none;
+  padding: 5px;
+  background-color: white;
+}
+
+button:hover {
+  opacity: 50%;
+}
+
+.bold-para {
+  font-weight: bold;
+}
